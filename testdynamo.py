@@ -6,9 +6,9 @@ dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('student')
 
 table.put_item(
-    Item={ 'email': ' roy@gmail.com',
-            'name': ' roy',
-            'age':25,
+    Item={ 'email': ' john@gmail.com',
+            'name': ' john',
+            'age':23,
             'sex':'male',
             }
 
